@@ -4,7 +4,6 @@ $result = "";
 $error = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
- work correctly
     $num1 = (float) $_POST["num1"];
     $num2 = (float) $_POST["num2"];
     $operator = $_POST["operator"];
